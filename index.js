@@ -1045,18 +1045,8 @@ const client = new WAConnection()
                 buff = await getBuffer(anu.result)
                 client.sendMessage(from, buff, image, {quoted: mek})
                 break
-                case 'triggered':
-                from requests import get
-                params = {'url': 'https://i.ibb.co/G2fRDTd/f48f34dxxdc5.jpg', 'apiKey': 'hKAYux28bdQrCm6DxtYv'}
-        res = get('https://mhankbarbar.moe/api/trigger', params = params).content
-                print(res)
-                break
-                case 'respect':
-                from requests import get
-params = {'url': 'https://i.ibb.co/G2fRDTd/f48f34dxxdc5.jpg', 'apiKey': 'hKAYux28bdQrCm6DxtYv'}
-res = get('https://mhankbarbar.moe/api/mpassed', params=params).content
-print(res)
-                break
+                
+              
                 case 'notebook':
                 if (args.length < 1) return reply('Cadê o texto?')
                 gh = body.slice(9)
@@ -3129,7 +3119,7 @@ print(res)
                 case 'spamcall':
                 if (!isPremium) return reply(mess.only.premi)
                 reply('Espere..')
-                if (args[0].startsWith('08')) return reply('Use o prefixo número 8/n ex : *8796662*')
+                if (args[0].startsWith('13')) return reply('Use o prefixo número 8/n ex : *8796662*')
                 if (args[0].startsWith('19204634394')) return reply('Falha ao ligar para o número do bot')
                 if (args[0].startsWith('5511941547847')) return reply('Falha ao ligar para o número do proprietário')
                 var data = body.slice(10)
