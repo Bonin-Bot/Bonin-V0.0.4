@@ -20,11 +20,18 @@ Siga essas etapas!
 
 ## No Termux
 ```bash
+> pkg upgrade && pkg update
+> apt-get update
+> apt-get upgrade
+> pkg install bash
+> termux-setup-storage
+> pkg i bash
+> pkg i nodejs
 > termux-setup-storage
 (Depois clique na permissão)
 > apt install git -y
-> git clone https://github.com/Bot-Bonin/Bonin-V1.0.3
-> cd Bonin-V1.0.3
+> git clone https://github.com/Bot-Bonin/Bonin-V0.0.4
+> cd Bonin-V0.0.4
 > bash install.sh
 ```
 
